@@ -87,4 +87,4 @@ SPI ADC (Temperature Sensor)
 
 Hemanth Kumar  
 Electronics & Communication Engineering  
-Embedded Systems | IoT | Industry 4.0 | Automation
+Embedded Systems | UART | SPI | IoT | Industry 4.0 | Automation
