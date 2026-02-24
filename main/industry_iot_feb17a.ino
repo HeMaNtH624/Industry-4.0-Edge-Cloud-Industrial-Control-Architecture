@@ -47,10 +47,7 @@ void onLightChange()  {
   }
 }
 
-/*
-  Since Buzzer is READ_WRITE variable, onBuzzerChange() is
-  executed every time a new value is received from IoT Cloud.
-*/
+
 void onBuzzerChange()  {
   // Add your code here to act upon Buzzer change
   if(buzzer)
