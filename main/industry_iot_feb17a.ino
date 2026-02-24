@@ -17,7 +17,7 @@ void setup() {
 
 void loop() {
   ArduinoCloud.update();
-  // Your code here  
+
 }
 
 
