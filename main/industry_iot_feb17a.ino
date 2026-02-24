@@ -27,7 +27,7 @@ void loop() {
   executed every time a new value is received from IoT Cloud.
 */
 void onFanChange()  {
-  // Add your code here to act upon Fan change
+  
   if(fan)
   {
     Serial.write('A');
