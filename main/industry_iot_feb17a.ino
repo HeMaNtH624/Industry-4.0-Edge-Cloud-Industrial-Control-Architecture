@@ -21,10 +21,7 @@ void loop() {
 }
 
 
-/*
-  Since Fan is READ_WRITE variable, onFanChange() is
-  executed every time a new value is received from IoT Cloud.
-*/
+
 void onFanChange()  {
   
   if(fan)
