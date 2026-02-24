@@ -34,10 +34,7 @@ void onFanChange()  {
   }
 }
 
-/*
-  Since Light is READ_WRITE variable, onLightChange() is
-  executed every time a new value is received from IoT Cloud.
-*/
+
 void onLightChange()  {
   // Add your code here to act upon Light change
   if(light)
