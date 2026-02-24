@@ -60,10 +60,6 @@ void onBuzzerChange()  {
   }
 }
 
-/*
-  Since Conveyor is READ_WRITE variable, onConveyorChange() is
-  executed every time a new value is received from IoT Cloud.
-*/
 void onConveyorChange()  {
   // Add your code here to act upon Conveyor change
   if(conveyor)
