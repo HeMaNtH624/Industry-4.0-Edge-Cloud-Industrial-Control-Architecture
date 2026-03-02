@@ -1,4 +1,4 @@
-# 🚀 Industry 4.0 Smart Industrial Automation System (Edge–Cloud Architecture)
+# 🎯 Industry 4.0 Smart Industrial Automation System (Edge–Cloud Architecture)
 
 An Industry 4.0-based smart automation system integrating an LPC2129 microcontroller with Arduino IoT Cloud for real-time industrial monitoring and remote actuator control.
 
