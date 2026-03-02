@@ -1,4 +1,4 @@
-/**devices**/
+/**devices**/ 
 
 #define fan 1<<18
 #define light 1<<19
@@ -30,6 +30,7 @@ void UART_CONFIG(void);
 void UART_TX(unsigned char ch);
 unsigned char UART_RX(void);
 void UART_STR(unsigned char *s);
+
 
 
 
