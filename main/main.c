@@ -16,8 +16,8 @@ int main()
 	LCD_CMD(0X80);
 	LCD_STRING("Industry 4.0");
 	delay_ms(1000);
-	IODIR0|=fan|light|buzzer|conveyor|led;
-	IOSET0|=fan|light|buzzer|conveyor|led;
+	IODIR0|=fan|light|buzzer|conveyor|actuator;
+	IOSET0|=fan|light|buzzer|conveyor|actuator;
 	
 	while(1)
 	{
@@ -30,12 +30,12 @@ int main()
 
 		if(temp>20.0)
 		{
-			IOCLR0|=led;
+			IOCLR0|=actuator;
 		}
 
 		else
 		{
-			IOSET0|=led;
+			IOSET0|=actuator;
 		}
 
 		rxByte=UART_RX();
@@ -76,3 +76,4 @@ int main()
 	}
 
 }
+
