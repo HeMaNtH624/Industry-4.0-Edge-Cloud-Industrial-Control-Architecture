@@ -4,7 +4,7 @@
 #define light 1<<19
 #define buzzer 1<<20
 #define conveyor 1<<21
-#define led 1<<16
+#define actuator 1<<16
 
 /***spi***/
 
@@ -30,6 +30,7 @@ void UART_CONFIG(void);
 void UART_TX(unsigned char ch);
 unsigned char UART_RX(void);
 void UART_STR(unsigned char *s);
+
 
 
 
