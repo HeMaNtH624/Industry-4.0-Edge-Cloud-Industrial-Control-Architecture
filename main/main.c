@@ -37,7 +37,7 @@ int main()
 		{
 			IOSET0|=actuator;
 		}
-
+		
 		rxByte=UART_RX();
 		switch(rxByte)
 		{
@@ -76,6 +76,7 @@ int main()
 	}
 
 }
+
 
 
 
