@@ -1,5 +1,4 @@
 //#include<LPC21XX.H>
-
 #define RS 1<<12
 #define LCD 0xF<<8
 #define EN 1<<13
