@@ -3,7 +3,6 @@
 #define LCD 0xF<<8
 #define EN 1<<13
 
-
 void delay(int ms)
 
 {
